@@ -4,11 +4,16 @@ import Button from './button';
 
 function App(){
   const handleClick = () => { 
-    alert("added to cart...!");
+    alert("Button has been clicked");
   };
 
   return(
-    <Button name='banana' onClick={handleClick}/>
+    <div id='nav_menu_item'>
+      <Button name='Home' onClick={handleClick} />
+      <Button name='About' onClick={handleClick} />
+      <Button name='Contact' onClick={handleClick} />
+    </div>
+    
   )
 }
 
