@@ -3,7 +3,7 @@ import Button from './button';
 
 
 function App(){
-  const handleClick = () => { // Definisikan fungsi handleClick sebagai fungsi arrow
+  const handleClick = () => { 
     alert("added to cart...!");
   };
 
