@@ -6,7 +6,7 @@ import App from './App';
 import { StrictMode } from 'react';
 // import { createRoot } from 'react-dom/client';
 
-const root = ReactDOM.createRoot(document.getElementById('nav_menu'));
+const root = ReactDOM.createRoot(document.getElementById('nav'));
 root.render(
     <StrictMode>
         <App />
