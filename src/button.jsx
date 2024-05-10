@@ -2,9 +2,9 @@ import React from 'react';
 
 function Button(props){
     return(
-        <a onClick={props.onClick}>
+        <button onClick={props.onClick} id={props.id}>
             <p>{props.name}</p>
-        </a>
+        </button>
     )
 }
 

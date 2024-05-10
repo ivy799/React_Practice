@@ -17,6 +17,11 @@ code {
   monospace;
 }
 
+#container-1{
+  display: flex;
+  align-items: center;
+}
+
 #nav_menu{
   display: flex;
   align-items: center;
@@ -36,12 +41,73 @@ code {
   padding: 0.3% 2% ;
 } 
 
+#nav_menu_item > button{
+  border: rgb(251, 251, 251);
+  background-color: rgb(251, 251, 251);
+  font-family: "myFirstFont";
+  cursor: pointer;
+} 
+
 #nav_menu_logo > img{
   width: 35px;
   height: 35px;
   padding: 1%;
   margin-left: 5px;
 }
+
+
+
+
+#nav_nightButton{
+  display: flex;
+  justify-content: flex-end; 
+  /* background-color: red; */
+  align-content: flex-start;
+}
+
+#button_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: blue;
+  margin-bottom: 20px;
+}
+
+#button_wrapper > button{
+  height: 30px;
+  width: 45px;
+  border-style: solid;
+  border-width: 1.5px;
+  font-family: "myFirstFont";
+  cursor: pointer;
+}
+
+#nav_nightButton > #button_wrapper > button > p{
+  line-height: 2px;
+}
+
+#nav_nightButton_1 {
+  background-color: black;
+  color: white;
+}
+
+#nav_nightButton_2 {
+  background-color: white;
+  color: black;
+}
+
+
+/* .night-mode-on body{
+  background-color: #333333;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+.night-mode-off {
+  background-color: #fff;
+  color: black;
+  transition: 0.4s ease-in-out;
+} */
 
 
 
